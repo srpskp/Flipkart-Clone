@@ -1,0 +1,298 @@
+.bestofElectronic_Contianer{
+    margin-top:1%;
+    width: 99.5%;
+    /* height: 330px; */
+    /* height: 350px; */
+    /* background-color: red; */
+}
+.bestofElectronicmoreOption{
+    /* height: 100px; */
+    max-width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+}
+.bestofElectronicmoreOption img{
+    /* height: 100%; */
+    width: 100%;
+    /* padding-top: 3%; */
+}
+.BestofElectronic_item{
+    background-color: white;
+    min-width: 240px;
+    max-width:240px ;
+    /* height: 330px; */
+    /* padding-top: 3%; */
+    /* position: relative; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* scroll-timeline-axis: unset; */
+}
+.viewAllBtn{
+    background-color: #2874f0;
+    padding: 6px 16px;
+    border-radius: 3px;
+    color:white;
+    font-size: 15px;
+}
+.bestofElectronic_bigText{
+    /* font-size: 30px; */
+    text-align: center;
+    margin:60px 10px 30px 0px;
+    /* font-family: Arial,sans-serif; */
+    color: #212121;
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.bestofElectronic_bigText{
+    font-size: 30px;
+    text-align: center;
+    margin:60px 0px 30px 0px;
+}
+.bestofElectronic_list{
+    display: flex;
+    margin-left: 0.5%;
+    max-width: 100%;
+    /* justify-content: space-around; */
+}
+.bestOfElectornic_image_Product{
+    /* height: max-content; */
+    text-align: center;
+    /* height: 210px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.bestOfElectornic_image_Product img{
+    width: 90%;
+    max-height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bestofElectornicProduct_name{
+    font-size: 15px;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+.bestofElecronic_discount{
+    color:#388e3c;
+}
+.bestofElectronic_brand{
+    color:rgb(143, 136, 136);
+}
+
+
+.bestofElctronic_product_item{
+    display: flex;
+    overflow: hidden;
+}
+.bestofElectronic_brand{
+    font-size: 12px;
+    padding-top: 7px;
+}
+.bestofElectornicProduct_name{
+    color:#000;
+}
+.section-4-list {
+    /* height: 100%; */
+    /* width: calc(100% - 230px); */
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #fff;
+    /* height: 330px; */
+    overflow:hidden;
+    /* padding-top: 1%; */
+}
+.section-4-item{
+    width: 232px;
+    /* height: 100%; */
+    /* padding: 0px 15px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2%;
+}
+.section-4-item_1{
+    width: 232px;
+    height: 200px;
+    /* padding: 0px 15px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-self: center; */
+}
+.section-4-item img {
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+}
+.section-4-item-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.section-4-item-price {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    
+}
+.section-4-item-explore{
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    /* color:#c2c2c2 */
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+@media only screen and (max-width:600px){
+    .BestofElectronic_item{
+        background-color: white;
+        min-width: 167px;
+        /* max-width: 248px; */
+        /* height: 330px; */
+        /* padding-top: 3%; */
+        /* position: relative; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+    .bestofElectronic_bigText {
+        font-size: 21px;
+        text-align: center;
+        margin: 50px 0px 30px 0px;
+    }
+    .viewAllBtn {
+        background-color: #2874f0;
+        padding: 6px 11px;
+        border-radius: 1px;
+        color: white;
+        font-size: 10px;
+    }
+    .section-4-item img {
+        max-width: 134px;
+        max-height: 200px;
+        text-align: center;
+    }
+    .section-4-item_1 {
+        width: 160px;
+        height: 200px;
+        /* padding: 0px 15px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* align-self: center; */
+    }
+    .section-4-item-head {
+        margin-top: -15px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .section-4-item-price {
+        margin-top: 6px;
+        font-size: 10px;
+        color: #388e3c;
+    }
+    .section-4-item-explore {
+        opacity: 0.6;
+        margin-top: 5px;
+        font-weight: 400;
+        font-size: 10px;
+        /* color: #c2c2c2; */
+    }
+    .section-4-item {
+        width: 232px;
+        /* height: 100%; */
+        /* padding: 0px 15px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 0%;
+    }
+    .section-4-list {
+        /* height: 100%; */
+        /* width: calc(100% - 230px); */
+        display: flex;
+        overflow-x: auto;
+        /* overflow-y: hidden; */
+        background-color: #fff;
+        /* height: 330px; */
+        /* overflow: hidden; */
+        /* padding-top: 1%; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .row4{
+    display: flex;
+    flex-flow: row;
+    padding-top: 20%;
+}
+.r1 {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 0px 0px 10px;
+    display: block;
+    padding-top: 20%;
+}
+.r2 {
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    border-top: 1px solid #eaeaea;
+    height: 100%;
+    padding: 20%;
+}
+.r3 {
+    background-image: url(./r4_1.jpg);
+    background-position: 0px bottom;
+    width: 230px;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+}
+.r4 {
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    padding: 28px 10px 124px;
+}
+._2cAig {
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+}
+.view {
+    margin-top: 24px;
+    text-align: center
+} */

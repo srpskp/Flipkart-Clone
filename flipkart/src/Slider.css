@@ -1,0 +1,35 @@
+.slider{
+    width: 99.5%;
+    padding-top: 23%;
+    /* background-color: #f1f3f6; */
+    /* text-align: center; */
+    
+}
+.img_slider {
+    max-width: 100%;
+    /* text-align: center; */
+    text-align: justify;
+    margin-left: 0.5%;
+    padding-top: 23%;
+    margin-top: -22.5%;
+    background-image: url(./6ab121c4bcbfd175.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slider_img 6s infinite;
+    /* animation-delay: 1s; */
+    /* transition: all ease 5s; */
+    /* transform: translateX(-10%); */
+    transition:opacity .5s linear
+    
+}
+@keyframes slider_img {
+    0% {
+        background-image: url(./slider6.jpg);
+    }
+    50% {
+        background-image: url(./slider2.jpg);
+    }
+    100% {
+        background-image: url(./slider5.jpg);
+    }
+}
